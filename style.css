@@ -1,0 +1,135 @@
+*{margin:0;
+    padding:0;
+    box-sizing:border-box;  
+    font-family:"seogoe UI",sans-serif;}
+    body {background:palevioletred;
+    color:white;
+line-height:1.6}
+/*UTILITIES*/
+.container{width:90%;
+max-width:1100px; 
+margin:auto}
+.section{padding:80px 0;}
+.section.light{background:black;}
+.section-desc{max-width: 600px;
+margin-buttom:40px;
+color:black;}
+.btn{display:inline-block;
+padding:10px 24px;
+background: black;
+color:#fff;
+border-radius:6px;
+text-decoration:none;}
+.btn-outline{display:inline-block;
+padding:10px 20px;
+border:1px solid pink;
+color:white;
+border-radius:6px;
+text-decoration:none;}
+/*NAVBAR*/
+body{margin:0;/*removes default body matgin*/
+font-family:sans-serif;}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:white;
+    color:white;
+    padding:10px 20px;}
+    .navlinks{list-style: none;
+        display:flex;
+        margin:0;
+        padding:0}
+        .nav-inks li{margin-left:20px;};
+        .nav-links a{color:white;
+        text-decoration:none;
+    padding:5px 10px;
+transitionn:color :0.3s;}
+
+.navbar{background:black;
+border-buttom:1px  solid #eee;}
+.nav-content{display:flex;
+justify-content:space-between;
+align-item:center;
+height:70px;}
+.navbar nav a{margin-left:20px;
+text-decoration:none;
+color:white;}
+.logo{
+font-size:1.5rem;
+
+font-weight:bold;
+color:white;}
+/*HERO*/
+.hero{background-color:grey;
+    padding:80px 0;}
+    .hero-content{display:flex;
+    align-items:center;
+justify-content:space-between;
+gap:40px;}
+.hero-text h1{font-size:3rem;}
+.hero-text p{font-size:1.2rem;
+    text-decoration: wavy;
+    color: white;
+margin:15px 0 25px;}
+.section{padding:80px 0;}
+.section.light{background:white;}
+.section-desc{max-width: 600px;
+margin-buttom:40px;}
+.round-image{width:250px;/*set equal width and height*/
+height:250px;/*To ensure a perfect circle*/
+border-radius: 50%;/*makes the image round*/
+object-fit:cover;/*Ensures the image covers the entire area without
+stretching*/}
+
+/*CARDS*/
+.skill{display:flex;
+align-items:center;
+gap:10px;
+margon:10px 0;}
+/*Target all font awesome icoms*/
+.fas{font-size:24px; /*make icons larger*/
+color:#333;/*change icon color*/
+font-size:24px;} /*Make icons}
+.card{display:grid;
+grid-template-columns:repeat{auto-fit,minimax(120px,1fr)};
+gap:20p;}
+.card{background:#fff;
+padding5px;
+border-radius:10px;
+box-shadow:0 10px 30pxrgba0 10px 30pxrgba(0,0,0,0.05);}
+.card h3{margin-bottom:10px;}
+/*PROJECT*/
+.project{display:grid;
+grid-template-columns:repeat(auto-fit,minimax(100px,1fr));
+gap:10px;}
+.project{background:black;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 10px rgba(0,0,0,0,0.5);
+text-align:center;}
+.project img{width:40%;
+border-radius:8px;
+margin-bottom:15px;}
+.project h3{margin-buttom:10px;}
+.project p{color:palevioletred;
+margin-bottom:10px;
+text-decoration-color:palevioletred;
+align-items: center;}
+.oval-image{width:500px;/*set equal width and height*/
+height:500px;/*To ensure a perfect circle*/
+border-radius: 30%;/*makes the image round*/
+object-fit:cover;/*Ensures the image covers the entire area without
+stretching*/}
+
+
+/*RESPONSIVE*/
+@media{max-width:768px;}
+    .hero-content{flex-direction:column;
+    text-align:center;}
+
+
+
+
+
+
